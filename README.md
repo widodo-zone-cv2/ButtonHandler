@@ -16,8 +16,8 @@ Untuk menggunakan ButtonHandler, cukup inisialisasi class ini di dalam kode Anda
 4: Long press release terdeteksi (tombol dilepas setelah tekan lama).
 0: Tidak ada event yang terdeteksi.
 Contoh Penggunaan
-```#include <ButtonHandler.h>
-
+```
+#include <ButtonHandler.h>
 ButtonHandler button;
 
 void setup() {
