@@ -16,9 +16,7 @@ Untuk menggunakan ButtonHandler, cukup inisialisasi class ini di dalam kode Anda
 4: Long press release terdeteksi (tombol dilepas setelah tekan lama).
 0: Tidak ada event yang terdeteksi.
 Contoh Penggunaan
-cpp
-Copy code
-`#include <ButtonHandler.h>`
+```#include <ButtonHandler.h>
 
 ButtonHandler button;
 
@@ -39,7 +37,8 @@ void loop() {
     } else if (event == 4) {
         // Long press release
     }
-}`
+}
+```
 ## Konfigurasi
 longPressDuration: Durasi untuk mendeteksi tekan lama, defaultnya 600 ms.
 debounceDelay: Waktu debounce untuk menghindari bouncing, defaultnya 10 ms.
